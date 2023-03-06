@@ -31,8 +31,10 @@
          document.body.addEventListener("click", play)
        }
       function play() {
+        var audio1 = document.getElementById("audio1");
+        audio1.pause();
         var audio = document.getElementById("audio");
-        // audio.play();
+        audio.play();
       }
     </script>
     <audio id="audio" src="sound/September.mp3"></audio>
@@ -63,7 +65,8 @@
         </button>
       </div>
     </div>
-    <audio src="./sound/September.mp3" autoplay></audio>
+
+    <audio id="audio1" src="sound/September.mp3" autoplay></audio>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
