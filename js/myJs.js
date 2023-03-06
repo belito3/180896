@@ -1,16 +1,16 @@
 const textConfig = {
-  text1: "Hế luu Bx!",
-  text2: "Ox có điều này muốn hỏi Bx nhớ phải trả lời thật lòng nhaaa.",
-  text3: "Bx yêu Ox có phải không nào ._.",
-  text4: "Nếu Bx ko trả lời mà thoát ra tức là muốn làm vợ Ox rùi đó nha :v",
-  text5: "Khom iu Ox nha :))",
-  text6: "Iu Ox nhèo nhèo :))",
-  text7: "Sao Bx iu Ox vại. :vvvv",
-  text8: "Gửi cho Ox di <3",
-  text9: "Vì Ox đẹp try vlllll",
-  text10: "Iu Vk quá luôn ó",
+  text1: "Happy Women'S Day",
+  text2: "Chúc em ngày 8 tháng 3 thật vui vẻ, hạnh phúc và \nluôn xinh đẹp, yêu bản thân mình nhiều hơn nhé. ",
+  text3: "10 vạn câu hỏi vì sao",
+  text4: "Sau 10 năm, tại sao chúng ta lại gặp nhau. Liệu chúng ta có phải là định mệnh của nhau?",
+  text5: "Maybe :))",
+  text6: "Chắc chắn rồi :))",
+  text7: "Sao biết hay vậy :vvvv",
+  text8: "Gửi cho lý do di <3",
+  text9: "Vì b tỏa sáng vlllll",
+  text10: "Dại trai đầu thai ko hết :))",
   text11:
-    "Lấy Ox lun nha Bx :DDDDDDDDDDDDD",
+    "Iu bản thân và luôn vui vẻ nhá! :DDDDDDDDDDDDD",
   text12: "Okii lunn <3",
 };
 
@@ -35,11 +35,12 @@ $(document).ready(function () {
     Swal.fire({
       title: textConfig.text1,
       text: textConfig.text2,
-      imageUrl: "img/cuteCat.jpg",
+      imageUrl: "img/lananh.jpg",
       imageWidth: 300,
       imageHeight: 300,
       background: '#fff url("img/iput-bg.jpg")',
       imageAlt: "Custom image",
+      confirmButtonText: "OK",
     }).then(function () {
       $(".content").show(200);
     });
