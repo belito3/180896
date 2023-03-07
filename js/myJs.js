@@ -2,7 +2,7 @@ const textConfig = {
   text1: "Happy Women'S Day",
   text2: "Chúc em ngày 8 tháng 3 thật vui vẻ, hạnh phúc và \nluôn xinh đẹp, yêu bản thân mình nhiều hơn nhé. ",
   text3: "10 vạn câu hỏi vì sao",
-  text4: "Sau 10 năm, tại sao chúng ta lại gặp nhau. Liệu chúng ta có phải là định mệnh của nhau?",
+  text4: "Sau 10 năm, tại sao chúng ta lại gặp nhau. Liệu đây có phải là định mệnh?",
   text5: "Maybe :))",
   text6: "Chắc chắn rồi :))",
   text7: "Sao biết hay vậy :vvvv",
